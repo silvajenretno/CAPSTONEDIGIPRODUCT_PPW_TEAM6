@@ -24,19 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tbl_admin`
---
-
-CREATE TABLE `tbl_admin` (
-  `id` int(11) NOT NULL,
-  `username` varchar(10) NOT NULL,
-  `password` varchar(10) NOT NULL,
-  `no_hp` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `tbl_membership`
 --
 
@@ -169,12 +156,6 @@ INSERT INTO `tbl_struk` (`id_struk`, `tanggal`, `kode_struck`) VALUES
 --
 -- Indexes for dumped tables
 --
-
---
--- Indexes for table `tbl_admin`
---
-ALTER TABLE `tbl_admin`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `tbl_membership`
